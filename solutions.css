@@ -43,7 +43,7 @@
         transform: rotate(0);
     }
 } */
-.ex-12-button:hover .ex-12-top-white {
+/* .ex-12-button:hover .ex-12-top-white {
     animation: moveTopWhite 2s linear;
 }
 @keyframes moveTopWhite {
@@ -71,7 +71,7 @@
         right: 20%;
     }
 }
-
+ */
 .ex-13-button:hover .ex-13-top-white {
     animation: moveTopWhiteCompletely 2s linear;
 }

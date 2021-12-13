@@ -98,14 +98,25 @@ position: relative;
 
 /* esercizio 10*/
 .ex-10-icon{
-    animation: gira 1s infinite linear;
+    animation: gira-tutto 1s infinite linear;
 }
 
-@keyframes gira {
+@keyframes gira-tutto {
 0%{ transform: rotate(0deg); }
 50%{ transform: rotate(180deg); }
 100%{ transform: rotate(360deg); }
 }
+
+/* esercizio 11*/
+.ex-11-icon:hover{
+    animation: gira-quasi-tutto 1.5s linear;
+}
+
+@keyframes gira-quasi-tutto {
+0%{ transform: rotate(0deg); }
+90%{ transform: rotate(270deg); }
+}
+
 
 
 

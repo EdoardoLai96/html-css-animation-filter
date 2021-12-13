@@ -88,7 +88,7 @@ position: relative;
 .ex-9-img:hover{
     border-radius: 25px;
     filter: saturate(0.3);
-    transform: scale(2);
+    transform: scale(1.5);
     position: relative;
 }
 
@@ -119,10 +119,10 @@ position: relative;
 
 /* esercizio 12*/
 .ex-12-button:hover .ex-12-top-white{
-    animation: gira-bordo-top 1s linear infinite ;
+    animation: gira-bordo-top-12 1s linear 2 ;
 }
 
-@keyframes gira-bordo-top {
+@keyframes gira-bordo-top-12 {
 0%{ position: absolute; left: 10%; top: -10px; }
 50%{ position: absolute; left: calc(100% - 60px); }
 100%{ position: absolute; left: 10%; top: -10px; }
@@ -130,16 +130,43 @@ position: relative;
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: gira-bordo-bottom 1s linear infinite ;
+    animation: gira-bordo-bottom-12 1s linear 2 ;
 }
 
-@keyframes gira-bordo-bottom {
+@keyframes gira-bordo-bottom-12{
 0%{ position: absolute; right: 20%; bottom: -10px; }
 50%{ position: absolute; right: calc(100% - 60px); }
 100%{ position: absolute; right: 20%; bottom: -10px; }
 
 }
 
+/* esercizio 13*/
+.ex-13-button:hover .ex-13-top-white{
+    animation: gira-bordo-top-13 2s linear 2 ;
+}
+
+@keyframes gira-bordo-top-13 {
+0%{ position: absolute; left: 10%; top: -10px; }
+20%{ position: absolute; left: 85%; top: -10px; }
+40%{ position: absolute; left: 85%; top: 85%; }
+60%{ position: absolute; left: -20px; top: 85%; }
+80%{ position: absolute; left: -20px; top: -10px; }
+100%{ position: absolute; left: 10%; top: -10px; }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: gira-bordo-bottom-13 2s linear 2 ;
+}
+
+@keyframes gira-bordo-bottom-13 {
+0%{ position: absolute; right: 20%; bottom: -10px; }
+20%{ position: absolute; right: 75%; bottom: -10px; }
+40%{ position: absolute; right: 75%; bottom: 85%; }
+60%{ position: absolute; right: -20px; bottom: 85%; }
+80%{ position: absolute; right: -20px; bottom: -10px; }
+100%{ position: absolute; right: 20%; bottom: -10px; }
+
+}
 
 
 
